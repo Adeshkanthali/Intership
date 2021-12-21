@@ -1,0 +1,133 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+img script{
+    max-width: 500%;
+    height: auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 300%;
+    height: 100vh;
+    background: #c4d10d url("C:\Users\ADESH\task\digital_banking.jpg") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color:yellow!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3.5rem;
+    color: blue!important;
+}
+
+.nav-link{
+    color: red!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: blue;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: white;
+    color: red;
+    padding: 6rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 300%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 362%;
+    background-color: yellow;
+    color: blue!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color:yellow;
+    
+}
+/* content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 160vh;
+    background-color: yellow;
+    border-top-left-radius: 142rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: black;
+    color: red!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: red;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #d7e426;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 1.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
